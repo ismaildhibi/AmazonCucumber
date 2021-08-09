@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.resources.Features.T01-login_feature.feature to test login for redsea functionality",
+    "children" : [ {
+      "name" : "Check login is successful with valid credentials",
+      "uid" : "dddef7ed05dd6796",
+      "parentUid" : "d7f5ab49c6730e448f84dda6ced013be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628516676551,
+        "stop" : 1628516718970,
+        "duration" : 42419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.Features.T01-login_feature.feature to test login for redsea functionality"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 09 14:44:36 WAT 2021","Mon Aug 09 14:45:18 WAT 2021","42419","","feature to test login for redsea functionality","","Check login is successful with valid credentials","","Check login is successful with valid credentials",""

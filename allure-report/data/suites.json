@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "feature to test login for redsea functionality",
+    "children" : [ {
+      "name" : "Check login is successful with valid credentials",
+      "uid" : "dddef7ed05dd6796",
+      "parentUid" : "19805342060ce10e8567c8810f92c928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628516676551,
+        "stop" : 1628516718970,
+        "duration" : 42419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "19805342060ce10e8567c8810f92c928"
+  } ],
+  "name" : "suites"
+}

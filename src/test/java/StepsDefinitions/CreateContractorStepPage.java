@@ -4,7 +4,7 @@ import com.Pages.ContractorPage;
 import com.Pages.UserPage;
 import com.redsea.base.Base;
 
-import cucumber.api.java.en.And;
+
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
