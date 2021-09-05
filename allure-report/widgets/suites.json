@@ -1,15 +1,17 @@
 {
-  "total" : 1,
-  "items" : [ {
-    "uid" : "19805342060ce10e8567c8810f92c928",
-    "name" : "feature to test login for redsea functionality",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+  "total": 1,
+  "items": [
+    {
+      "uid": "19805342060ce10e8567c8810f92c928",
+      "name": "feature to test login for redsea functionality",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
     }
-  } ]
+  ]
 }

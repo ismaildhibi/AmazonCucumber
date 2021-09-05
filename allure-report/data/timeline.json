@@ -1,26 +1,32 @@
 {
-  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ {
-    "name" : "DESKTOP-OVEUH4R",
-    "children" : [ {
-      "name" : "3076@DESKTOP-OVEUH4R.main(1)",
-      "children" : [ {
-        "name" : "Check login is successful with valid credentials",
-        "uid" : "dddef7ed05dd6796",
-        "parentUid" : "3f2333918fb1f7c3d2e91b84d152a954",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628516676551,
-          "stop" : 1628516718970,
-          "duration" : 42419
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3f2333918fb1f7c3d2e91b84d152a954"
-    } ],
-    "uid" : "56ba968e283f143205db151639788f99"
-  } ],
-  "name" : "timeline"
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children": [
+    {
+      "name": "DESKTOP-OVEUH4R",
+      "children": [
+        {
+          "name": "3076@DESKTOP-OVEUH4R.main(1)",
+          "children": [
+            {
+              "name": "Check login is successful with valid credentials",
+              "uid": "2600adf16b0bcb87",
+              "parentUid": "3f2333918fb1f7c3d2e91b84d152a954",
+              "status": "passed",
+              "time": {
+                "start": 1628516676551,
+                "stop": 1628516718970,
+                "duration": 42419
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "3f2333918fb1f7c3d2e91b84d152a954"
+        }
+      ],
+      "uid": "56ba968e283f143205db151639788f99"
+    }
+  ],
+  "name": "timeline"
 }

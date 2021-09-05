@@ -1,1 +1,34 @@
-{"uuid":"c6a934fb-c233-46b7-9a47-c0e66a9760da","name":"Scenario: Check login is successful with valid credentials","children":["f2b39e12-e14b-41e1-861f-66d4e42f6f00"],"befores":[{"name":"StepsDefinitions.Hooks.runsBeforeanyScenario()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628516676556,"stop":1628516676565}],"afters":[{"name":"StepsDefinitions.Hooks.runsAfteranyScenario()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628516718776,"stop":1628516718965}],"links":[],"start":1628516676550,"stop":1628516718970}
+{
+  "uuid": "c6a934fb-c233-46b7-9a47-c0e66a9760da",
+  "name": "Scenario: Check login is successful with valid credentials",
+  "children": [
+    "f2b39e12-e14b-41e1-861f-66d4e42f6f00"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1628516676556,
+      "stop": 1628516676565
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1628516718776,
+      "stop": 1628516718965
+    }
+  ],
+  "links": [],
+  "start": 1628516676550,
+  "stop": 1628516718970
+}

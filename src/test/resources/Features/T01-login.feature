@@ -1,8 +1,10 @@
 Feature: feature to test login for redsea functionality
- @SanityTest1
+
+  
   Scenario: Check login is successful with valid credentials
-    Given the user is on login page
+    Given the user accessed the login page
     When the user enter username "tenant@mt.com" and password "A12345"
+   # When the user enter username "redsea@mt.com" and password "A12345"
     Then I should redirect to Workforce page
 
   #Scenario Outline: Check login  with Invalid credentials
@@ -13,7 +15,7 @@ Feature: feature to test login for redsea functionality
     #Examples: 
       #| username       | password |
       #| tenant@mt.com1 | A12345   |
-      #| tenant@mt.com  |    f12345 |
+      #| tenant@mt.com  | f12345 |
       #| tenant@mt.com1 | A1412345 |
       #
   #
