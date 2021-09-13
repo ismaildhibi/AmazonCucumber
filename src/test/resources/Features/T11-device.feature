@@ -2,6 +2,7 @@ Feature: feature device
 
   Scenario: create new device
   Given the user is on login page
+   When the user enter username "tenant@mt.com" and password "A12345"
    When Click to  Devices menu and click to add new device
   When I should redirect to device page
   When enter the name "A0A10121" and type "wearableTag" of device

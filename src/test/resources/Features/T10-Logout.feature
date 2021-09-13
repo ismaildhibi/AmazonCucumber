@@ -4,3 +4,4 @@ Feature: Test the logout feature
     Given User should be  logged in
     When User  logout
     Then User should be logged out
+    

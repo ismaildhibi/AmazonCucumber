@@ -12,7 +12,7 @@ public class Add_Device_StepPage extends Base {
 	@When("Click to  Devices menu and click to add new device")
 	public void click_to_devices_menu_and_click_to_add_new_device() {
 		device = new DevicePage(driver);
-	//	device.clicktoSttings();
+		device.clicktoSttings();
 		device.clicktoDevices();
 
 	}
