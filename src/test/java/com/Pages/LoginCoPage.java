@@ -1,12 +1,12 @@
-package com.redsea.pages;
+package com.Pages;
 
 import com.redsea.base.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends Base {
-    public LoginPage() {
+public class LoginCoPage extends Base {
+    public LoginCoPage() {
         PageFactory.initElements(driver, this);
     }
 

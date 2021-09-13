@@ -1,0 +1,200 @@
+{
+  "name": "edit role",
+  "status": "skipped",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null",
+    "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null\r\n\tat StepsDefinitions.Hooks.runsAfteranyScenario(Hooks.java:20)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  user is on login page",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Undefined Step. Please add step definition",
+        "trace": "java.lang.IllegalStateException: Undefined Step. Please add step definition\r\n\tat io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm.handlePickleStep(AllureCucumber6Jvm.java:406)\r\n\tat io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm.handleTestStepFinished(AllureCucumber6Jvm.java:242)\r\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\r\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\r\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\r\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:66)\r\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:124)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:74)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464708,
+      "stop": 1629466464709
+    },
+    {
+      "name": "When  user enter username and password",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data table",
+          "source": "2879a4da-c04b-4bb6-9ee4-834c1310d79e-attachment.csv",
+          "type": "text/tab-separated-values"
+        }
+      ],
+      "parameters": [],
+      "start": 1629466464709,
+      "stop": 1629466464711
+    },
+    {
+      "name": "When  go to workforcepage and click to button settnigs",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464712,
+      "stop": 1629466464712
+    },
+    {
+      "name": "When  click to Role button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464712,
+      "stop": 1629466464713
+    },
+    {
+      "name": "When  search the rol will be edit",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464713,
+      "stop": 1629466464714
+    },
+    {
+      "name": "When  click to button edit",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464714,
+      "stop": 1629466464715
+    },
+    {
+      "name": "When  set the new AutomationRoleedit and this role for automation is edit",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464715,
+      "stop": 1629466464716
+    },
+    {
+      "name": "Then  verify the role is edit",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464716,
+      "stop": 1629466464716
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "AutomationRoleedit"
+    },
+    {
+      "name": "description",
+      "value": "this role for automation is edit"
+    }
+  ],
+  "start": 1629466464707,
+  "stop": 1629466464718,
+  "uuid": "3e197079-ac95-487f-9166-83b870086e93",
+  "historyId": "d4154b0c1560d6c57dd0906458cdb424",
+  "fullName": "Create new Role: edit role",
+  "labels": [
+    {
+      "name": "host",
+      "value": "DESKTOP-OVEUH4R"
+    },
+    {
+      "name": "thread",
+      "value": "5780@DESKTOP-OVEUH4R.main(1)"
+    },
+    {
+      "name": "feature",
+      "value": "Create new Role"
+    },
+    {
+      "name": "story",
+      "value": "edit role"
+    },
+    {
+      "name": "suite",
+      "value": "Create new Role"
+    },
+    {
+      "name": "testClass",
+      "value": "edit role"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber4jvm"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "gherkin_uri",
+      "value": "file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T02-roles.feature"
+    },
+    {
+      "name": "package",
+      "value": "src.test.resources.Features.T02-roles_feature.Create new Role"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,34 @@
+{
+  "uuid": "9fdb1050-d15f-431e-aac2-c5aea27fffd7",
+  "name": "Scenario: Check login is successful with valid credentials",
+  "children": [
+    "da665aaf-96b0-4387-a061-c6413b2d8fad"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630314073570,
+      "stop": 1630314073577
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630314097774,
+      "stop": 1630314097903
+    }
+  ],
+  "links": [],
+  "start": 1630314073564,
+  "stop": 1630314097907
+}

@@ -1,0 +1,41 @@
+{
+  "uuid": "0bde6b19-4d33-4026-b38d-79b93bac832b",
+  "name": "Scenario Outline: create new User  with valid credentials",
+  "children": [
+    "2c8ef15f-ba3d-45f0-8837-101e6537a4b6"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466970389,
+      "stop": 1629466970389
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "AFTER is failed: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null",
+        "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null\r\n\tat StepsDefinitions.Hooks.runsAfteranyScenario(Hooks.java:20)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466970395,
+      "stop": 1629466970396
+    }
+  ],
+  "links": [],
+  "start": 1629466970389,
+  "stop": 1629466970397
+}

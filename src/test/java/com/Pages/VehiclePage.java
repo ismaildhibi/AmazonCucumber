@@ -1,4 +1,4 @@
-package com.redsea.pages;
+package com.Pages;
 
 import com.redsea.base.Base;
 import org.openqa.selenium.Keys;
@@ -234,9 +234,9 @@ public class VehiclePage extends Base {
         importButton.click();
     }
 
-    public void clickondragbutton() {
+    public void clickondragbutton(String fileimportV) {
 
-        dragImportButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Vehicle.xlsx");
+        dragImportButton.sendKeys(fileimportV);
     }
 
     public void SaveImport() {

@@ -1,0 +1,115 @@
+{
+  "name": "Check login is successful with valid credentials",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot invoke \"org.openqa.selenium.WebDriver.manage()\" because \"com.redsea.base.Base.driver\" is null",
+    "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.manage()\" because \"com.redsea.base.Base.driver\" is null\r\n\tat com.redsea.base.Base.lunchdriver(Base.java:45)\r\n\tat StepsDefinitions.LoginStepsPage.the_user_is_on_login_page(LoginStepsPage.java:23)\r\n\tat ✽.the user is on login page(file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T01-login.feature:4)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user is on login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Cannot invoke \"org.openqa.selenium.WebDriver.manage()\" because \"com.redsea.base.Base.driver\" is null",
+        "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.manage()\" because \"com.redsea.base.Base.driver\" is null\r\n\tat com.redsea.base.Base.lunchdriver(Base.java:45)\r\n\tat StepsDefinitions.LoginStepsPage.the_user_is_on_login_page(LoginStepsPage.java:23)\r\n\tat ✽.the user is on login page(file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T01-login.feature:4)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629469444761,
+      "stop": 1629469444767
+    },
+    {
+      "name": "When  the user enter username \"tenant@mt.com\" and password \"A12345\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629469444768,
+      "stop": 1629469444768
+    },
+    {
+      "name": "Then  I should redirect to Workforce page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629469444769,
+      "stop": 1629469444769
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1629469444742,
+  "stop": 1629469444777,
+  "uuid": "3fda0214-5334-4a6a-aee5-2706b0a29f67",
+  "historyId": "b3c2f430e86d834cad3882f8be5511f",
+  "fullName": "feature to test login for redsea functionality: Check login is successful with valid credentials",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "SanityTest115"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-OVEUH4R"
+    },
+    {
+      "name": "thread",
+      "value": "10728@DESKTOP-OVEUH4R.main(1)"
+    },
+    {
+      "name": "feature",
+      "value": "feature to test login for redsea functionality"
+    },
+    {
+      "name": "story",
+      "value": "Check login is successful with valid credentials"
+    },
+    {
+      "name": "suite",
+      "value": "feature to test login for redsea functionality"
+    },
+    {
+      "name": "testClass",
+      "value": "Check login is successful with valid credentials"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber4jvm"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "gherkin_uri",
+      "value": "file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T01-login.feature"
+    },
+    {
+      "name": "package",
+      "value": "src.test.resources.Features.T01-login_feature.feature to test login for redsea functionality"
+    }
+  ],
+  "links": []
+}

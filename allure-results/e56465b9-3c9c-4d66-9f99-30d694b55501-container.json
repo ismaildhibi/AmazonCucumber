@@ -1,0 +1,41 @@
+{
+  "uuid": "e56465b9-3c9c-4d66-9f99-30d694b55501",
+  "name": "Scenario Outline: Create new Shift",
+  "children": [
+    "c34723a9-9e1c-4576-b884-1692139f7592"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466465023,
+      "stop": 1629466465023
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "AFTER is failed: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null",
+        "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null\r\n\tat StepsDefinitions.Hooks.runsAfteranyScenario(Hooks.java:20)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466465028,
+      "stop": 1629466465028
+    }
+  ],
+  "links": [],
+  "start": 1629466465023,
+  "stop": 1629466465028
+}

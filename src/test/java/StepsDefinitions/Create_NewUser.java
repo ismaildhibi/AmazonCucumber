@@ -37,7 +37,7 @@ public class Create_NewUser extends Base {
     public void click_to_user_button_and_click_to_icone_add() throws InterruptedException {
         user = new UserPage(driver);
         
-    //    user.clicktoSettings();
+    //   user.clicktoSettings();
         user.clicktobuttonUser();		
         Thread.sleep(3000);
 

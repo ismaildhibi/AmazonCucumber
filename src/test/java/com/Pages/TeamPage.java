@@ -1,4 +1,4 @@
-package com.redsea.pages;
+package com.Pages;
 
 import com.redsea.base.Base;
 import org.openqa.selenium.Keys;

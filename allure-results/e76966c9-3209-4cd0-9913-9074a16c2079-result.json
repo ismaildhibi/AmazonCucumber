@@ -1,0 +1,91 @@
+{
+  "name": "create new device",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user is on login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630357739260,
+      "stop": 1630357754592
+    },
+    {
+      "name": "When  the user enter username \"tenant@mt.com\" and password \"A12345\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630357754592,
+      "stop": 1630357760494
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630357724095,
+  "stop": 1630357760606,
+  "uuid": "e76966c9-3209-4cd0-9913-9074a16c2079",
+  "historyId": "7114035f9712c07581292dbb9607932a",
+  "fullName": "feature to create new device: create new device",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "111111"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-OVEUH4R"
+    },
+    {
+      "name": "thread",
+      "value": "14276@DESKTOP-OVEUH4R.main(1)"
+    },
+    {
+      "name": "feature",
+      "value": "feature to create new device"
+    },
+    {
+      "name": "story",
+      "value": "create new device"
+    },
+    {
+      "name": "suite",
+      "value": "feature to create new device"
+    },
+    {
+      "name": "testClass",
+      "value": "create new device"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber4jvm"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "gherkin_uri",
+      "value": "file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T05-device.feature"
+    },
+    {
+      "name": "package",
+      "value": "src.test.resources.Features.T05-device_feature.feature to create new device"
+    }
+  ],
+  "links": []
+}

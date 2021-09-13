@@ -1,0 +1,166 @@
+{
+  "name": "delete Contractor",
+  "status": "skipped",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null",
+    "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null\r\n\tat StepsDefinitions.Hooks.runsAfteranyScenario(Hooks.java:20)\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  admin is on login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464834,
+      "stop": 1629466464835
+    },
+    {
+      "name": "When  user enter username and password",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Undefined Step. Please add step definition",
+        "trace": "java.lang.IllegalStateException: Undefined Step. Please add step definition\r\n\tat io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm.handlePickleStep(AllureCucumber6Jvm.java:406)\r\n\tat io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm.handleTestStepFinished(AllureCucumber6Jvm.java:242)\r\n\tat io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)\r\n\tat io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)\r\n\tat io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)\r\n\tat io.cucumber.core.runtime.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:66)\r\n\tat io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java:124)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:74)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data table",
+          "source": "feff6f12-ae46-48a4-a090-9b4c40d3ca50-attachment.csv",
+          "type": "text/tab-separated-values"
+        }
+      ],
+      "parameters": [],
+      "start": 1629466464835,
+      "stop": 1629466464838
+    },
+    {
+      "name": "When  go to workforcepage and click to button settnigs",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464839,
+      "stop": 1629466464839
+    },
+    {
+      "name": "When  click to Contractor button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464839,
+      "stop": 1629466464840
+    },
+    {
+      "name": "When  search  contractor will be delete it ismail",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464840,
+      "stop": 1629466464841
+    },
+    {
+      "name": "Then  click to button delete Contractor",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466464842,
+      "stop": 1629466464842
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "ContractorName",
+      "value": "ismail"
+    }
+  ],
+  "start": 1629466464833,
+  "stop": 1629466464844,
+  "uuid": "d694061e-f2e0-4f76-aba3-b4a3b1283578",
+  "historyId": "c927482361560209e1586509a4ff3c03",
+  "fullName": "Create New contractor: delete Contractor",
+  "labels": [
+    {
+      "name": "host",
+      "value": "DESKTOP-OVEUH4R"
+    },
+    {
+      "name": "thread",
+      "value": "5780@DESKTOP-OVEUH4R.main(1)"
+    },
+    {
+      "name": "feature",
+      "value": "Create New contractor"
+    },
+    {
+      "name": "story",
+      "value": "delete Contractor"
+    },
+    {
+      "name": "suite",
+      "value": "Create New contractor"
+    },
+    {
+      "name": "testClass",
+      "value": "delete Contractor"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber4jvm"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "gherkin_uri",
+      "value": "file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T03-CreactContactor.feature"
+    },
+    {
+      "name": "package",
+      "value": "src.test.resources.Features.T03-CreactContactor_feature.Create New contractor"
+    }
+  ],
+  "links": []
+}

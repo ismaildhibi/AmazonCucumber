@@ -1,0 +1,34 @@
+{
+  "uuid": "b02d117e-1d4e-465f-b904-309226d2cf91",
+  "name": "Scenario: add multiple device",
+  "children": [
+    "4bd4ad7d-f8d3-4da5-a2a9-231f45cadf9c"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630441092932,
+      "stop": 1630441115159
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630441115188,
+      "stop": 1630441115188
+    }
+  ],
+  "links": [],
+  "start": 1630441092927,
+  "stop": 1630441115208
+}

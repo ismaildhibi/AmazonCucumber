@@ -12,7 +12,7 @@ Feature: Test the Workforce feature
     Given User go to workforce page
     And click on add new workforce
     When User type workforce new information
-      | workforce Test | wftest01@gmail.com | 523611000 | 523611000 | 12252020 | profile | vehicle | file123 | C:\Users\Eyaba\Desktop\file.pdf |
+      | workforce Test | wftest01@gmail.com | 523611000 | 523611000 | 12252020 | profile | vehicle | file123 | src/test/resources/Data/file.pdf |
     And click on submit button to confirm
     Then User should navigate to workforce dashboard
 
@@ -33,11 +33,12 @@ Feature: Test the Workforce feature
     When User click the delete workforce button
     Then User should navigate to workforce dashboard
 
-
-  Scenario: To import workforce
-    Given User go to workforce menu
-    When User click on import workforce list
-    Then User add the workforce list
+#
+  #Scenario: To import workforce
+    #Given User go to workforce menu
+    #When User click on import workforce list
+    #Then User add the workforce list
+     #     | C:\Users\ismail\eclipse-workspace\RedSea-PageFactoryV0\src\test\resources\Data\Workforce.xlsx |
 
   Scenario: To export the list of workforce
     Given User go to workforce page
@@ -51,10 +52,10 @@ Feature: Test the Workforce feature
     When Add multiple workforces
 
       | fullName          | email               | Number    | birthdate | idPassport | Workforceprofile | vehicle | fileName | fileLocation                    |
-      | workforce Test001 | wftest001@gmail.com | 523611001 | 11252020  | 523611001  | profile          | vehicle | file123  | C:\Users\Eyaba\Desktop\file.pdf |
-      | workforce Test002 | wftest002@gmail.com | 523611002 | 10252020  | 523611002  | profile          | vehicle | file123  | C:\Users\Eyaba\Desktop\file.pdf |
-      | workforce Test003 | wftest003@gmail.com | 523611003 | 10252020  | 523611003  | profile          | vehicle | file123  | C:\Users\Eyaba\Desktop\file.pdf |
-      | workforce Test004 | wftest004@gmail.com | 523611004 | 1152020   | 523611004  | profile          | vehicle | file123  | C:\Users\Eyaba\Desktop\file.pdf |
+      | workforce Test001 | wftest001@gmail.com | 523611001 | 11252020  | 523611001  | profile          | vehicle | file123  | src/test/resources/Data/file.pdf |
+      | workforce Test002 | wftest002@gmail.com | 523611002 | 10252020  | 523611002  | profile          | vehicle | file123  | src/test/resources/Data/file.pdf |
+      | workforce Test003 | wftest003@gmail.com | 523611003 | 10252020  | 523611003  | profile          | vehicle | file123  | src/test/resources/Data/file.pdf |
+      | workforce Test004 | wftest004@gmail.com | 523611004 | 1152020   | 523611004  | profile          | vehicle | file123  | src/test/resources/Data/file.pdf |
 
     Then select the workforces added
     And Click on delete workforces button

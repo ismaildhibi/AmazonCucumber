@@ -1,0 +1,41 @@
+{
+  "uuid": "580922e7-f986-44a0-a9f4-cbe439835d45",
+  "name": "Scenario: Check login is successful with valid credentials",
+  "children": [
+    "1a992174-f065-4dc2-b391-398ebc7f1c25"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629469608939,
+      "stop": 1629469608946
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "AFTER is failed: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null",
+        "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null\r\n\tat StepsDefinitions.Hooks.runsAfteranyScenario(Hooks.java:20)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629469608962,
+      "stop": 1629469608963
+    }
+  ],
+  "links": [],
+  "start": 1629469608934,
+  "stop": 1629469608969
+}

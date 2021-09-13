@@ -1,7 +1,8 @@
-package steps;
+package StepsDefinitions;
 
+import com.Pages.VehiclePage;
 import com.redsea.base.Base;
-import com.redsea.pages.VehiclePage;
+
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -38,7 +39,7 @@ public class VehicleSteps extends Base {
         vehiclePage.clickonVehicleProfile();
         vehiclePage.enterPlateNumber(data.cell(0, 1));
         vehiclePage.clickonColor();
-        vehiclePage.clickonDriveName();
+        //vehiclePage.clickonDriveName();
         vehiclePage.clickonShift();
         Thread.sleep(4000);
     }
@@ -59,10 +60,11 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         vehiclePage = new VehiclePage();
         vehiclePage.gotovehiclePage();
-        Thread.sleep(1000);
+        Thread.sleep(4000);
         vehiclePage.clickonsearchbutton(data.cell(0, 0));
+        Thread.sleep(4000);
         vehiclePage.clickOnEditButton();
-        Thread.sleep(1000);
+        Thread.sleep(4000);
     }
 
     @When("User update vehicle information")
@@ -70,7 +72,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(1000);
         System.out.println(" load vehicle to update");
         vehiclePage.enternewupdateforvehicle(data.cell(0, 0));
-        Thread.sleep(1000);
+        Thread.sleep(4000);
     }
 
     @Then("User click on save vehicle update button")
@@ -93,6 +95,7 @@ public class VehicleSteps extends Base {
     public void userClickTheDeleteVehicleButton() throws InterruptedException {
         Thread.sleep(3000);
         vehiclePage.clickOnDeleteButton();
+        Thread.sleep(4000);
     }
 
     @Given("User go to vehicle menu")
@@ -104,22 +107,25 @@ public class VehicleSteps extends Base {
 
     @When("User click on import vehicle list")
     public void userClickOnImportVehicleList() throws InterruptedException {
-        System.out.println(" load Vehicle to import");
+        System.out.println(" click Vehicle to import");
         Thread.sleep(1000);
         vehiclePage.importnewVehicle();
+        Thread.sleep(4000);
     }
 
     @Then("User add the vehicle list")
-    public void userAddTheVehicleList() throws InterruptedException {
-        vehiclePage.clickondragbutton();
+    public void userAddTheVehicleList(DataTable data) throws InterruptedException {
+        vehiclePage.clickondragbutton(data.cell(0, 0));
         vehiclePage.SaveImport();
         Thread.sleep(4000);
+        System.out.println("  Vehicle is imported");
     }
 
     @When("User click on export vehicle button")
     public void userClickOnExportVehicleButton() throws InterruptedException {
         Thread.sleep(1000);
         vehiclePage.clickonexportbutton();
+        System.out.println("  Vehicle is exported");
         Thread.sleep(4000);
     }
 
@@ -131,6 +137,7 @@ public class VehicleSteps extends Base {
         Thread.sleep(2000);
         vehiclePage.gotoAddIconbutton();
         vehiclePage.gotoAddvehicle();
+        Thread.sleep(3000);
 
     }
 
@@ -189,21 +196,23 @@ public class VehicleSteps extends Base {
         
     }
 
-    @Then("select the vehicles added")
+    @And("select the vehicles added")
     public void selectTheVehiclesAdded() throws InterruptedException {
-        Thread.sleep(3000);
+      
         vehiclePage.clickonSelectAll();
-        String MessagePop = vehiclePage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "5 vehicles selected");
-        Thread.sleep(9000);
+//        String MessagePop = vehiclePage.getSelectMessage();
+//        Assert.assertEquals((MessagePop), "5 vehicles selected");
+//        Thread.sleep(9000);
+        Thread.sleep(3000);
         
     }
 
-    @And("Click on delete vehicles button")
+    @Then("Click on delete vehicles button")
     public void clickOnDeleteVehiclesButton() throws InterruptedException {
 
-        Thread.sleep(3000);
+     
         vehiclePage.clickOndeleteAll();
+        Thread.sleep(2000);
         vehiclePage.confirmdelete();
         Thread.sleep(3000);
     }

@@ -10,7 +10,7 @@ Feature: feature user
 
     Examples:
       | FirstName | LastName | Email                  | Mobile   |
-      | ismail    | dhibi    | ismaildhibi94@gmail.com | 521813265 |
+      | ismail    | dhibi    | ismaildhibi904@gmail.com | 521813265 |
 
   #Scenario: Check  message error in input
     #Given the user is on login page

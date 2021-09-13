@@ -1,4 +1,4 @@
-package com.redsea.pages;
+package com.Pages;
 
 import com.redsea.base.Base;
 import org.openqa.selenium.WebElement;
@@ -92,8 +92,12 @@ public class WorkforcePage extends Base {
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-confirm-dialog/div[2]/button[2]")
     WebElement confirmdeleteButton;
 
-    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]")
+   /* @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[9]/div/span/tb-ag-grid-row-actions/div[2]/button[1]")
+    WebElement EditButton; */
+
+    @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/ag-grid-angular/div/div[2]/div[2]/div[3]/div[2]/div/div/div/div[10]/div/span/tb-ag-grid-row-actions/div[2]/button[1]/span[1]/mat-icon")
     WebElement EditButton;
+
     @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-edit-workforce-dialog/form/div[3]/button[2]")
     WebElement saveUpdateButton;
 
@@ -309,8 +313,8 @@ public class WorkforcePage extends Base {
         ImportWorkforceButton.click();
     }
 
-    public void clickondragbutton() {
-        dragImportButton.sendKeys("C:\\Users\\Eyaba\\Desktop\\Workforce.xlsx");
+    public void clickondragbutton(String fileWF) {
+        dragImportButton.sendKeys(fileWF);
     }
 
     public void SaveImport() {

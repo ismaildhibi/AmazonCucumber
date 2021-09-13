@@ -1,24 +1,29 @@
-package steps;
+package StepsDefinitions;
 
 import com.redsea.base.Base;
-import com.redsea.pages.LoginPage;
+import com.Pages.LoginCoPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+import java.io.IOException;
 
-public class LoginSteps extends Base {
-    LoginPage loginPage;
+
+public class LoginCoSteps extends Base {
+    LoginCoPage loginPage;
 
     @Given("User open the website and go to login page")
-    public void user_open_the_website_and_go_to_login_page() {
-        launchBrowser();
+    public void user_open_the_website_and_go_to_login_page() throws IOException {
+
+         //lunchBrowser();
     }
+
+
 
     @When("User fill email as {string} and pw as {string}")
     public void userFillEmailAsAndPwAs(String username, String password) {
 
-        loginPage = new LoginPage();
+        loginPage = new LoginCoPage();
         loginPage.performLogin(username, password);
 
     }

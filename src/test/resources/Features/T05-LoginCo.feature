@@ -1,4 +1,4 @@
-Feature: Test the login feature
+Feature: Test the login of Contractor
 
   @SanityTest01 @workforce @multiple
   Scenario: To login with  email and pw

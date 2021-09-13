@@ -1,4 +1,4 @@
-package com.redsea.pages;
+package com.Pages;
 
 import com.redsea.base.Base;
 import org.openqa.selenium.Keys;
@@ -45,7 +45,7 @@ public class VisitorPage extends Base {
     @FindBy(id = "attachment-file-input")
     WebElement attachmentInputFile;
 
-    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[2]\n")
+    @FindBy(xpath = "/html/body/div[3]/div[2]/div/mat-dialog-container/tb-add-visitor-dialog/form/div[3]/button[2]")
     WebElement submitButton;
 
     @FindBy(xpath = "/html/body/tb-root/tb-home/mat-sidenav-container/mat-sidenav-content/div/div/tb-ag-grid-entity/mat-drawer-container/mat-drawer-content/div/div/mat-toolbar[1]/div/div[2]/button[2]/span[1]/mat-icon")
@@ -176,9 +176,6 @@ public class VisitorPage extends Base {
     }
 
     public void entervisitorInformationP1(String name, String number, String id) {
-        // fullName.sendKeys("visitorTest");
-        //  mobileNumber.sendKeys("523698000");
-        //  idNumber.sendKeys("523698000");
         fullName.sendKeys(name);
         mobileNumber.sendKeys(number);
         idNumber.sendKeys(id);

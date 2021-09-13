@@ -1,0 +1,41 @@
+{
+  "uuid": "01f4bd1f-66f2-4b44-ac79-5a789e4c39b9",
+  "name": "Scenario Outline: Edit Contractor",
+  "children": [
+    "f8d90f7a-7805-4098-88e5-8366c0245c5c"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466970332,
+      "stop": 1629466970333
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "AFTER is failed: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null",
+        "trace": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"StepsDefinitions.Hooks.driver\" is null\r\n\tat StepsDefinitions.Hooks.runsAfteranyScenario(Hooks.java:20)\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1629466970343,
+      "stop": 1629466970344
+    }
+  ],
+  "links": [],
+  "start": 1629466970332,
+  "stop": 1629466970344
+}

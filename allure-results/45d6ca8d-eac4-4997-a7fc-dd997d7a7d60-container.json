@@ -1,0 +1,34 @@
+{
+  "uuid": "45d6ca8d-eac4-4997-a7fc-dd997d7a7d60",
+  "name": "Scenario: create new device",
+  "children": [
+    "e76966c9-3209-4cd0-9913-9074a16c2079"
+  ],
+  "befores": [
+    {
+      "name": "StepsDefinitions.Hooks.runsBeforeanyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630357724101,
+      "stop": 1630357739242
+    }
+  ],
+  "afters": [
+    {
+      "name": "StepsDefinitions.Hooks.runsAfteranyScenario()",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630357760495,
+      "stop": 1630357760605
+    }
+  ],
+  "links": [],
+  "start": 1630357724094,
+  "stop": 1630357760606
+}

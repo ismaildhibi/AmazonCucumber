@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -36,7 +37,8 @@ public class Base {
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.get(props.getProperty("url"));
         driver.manage().window().maximize();
-        System.out.println("the navigator is : "+props.getProperty("browser"));
- 
+        System.out.println("the navigator is : " + props.getProperty("browser"));
+
     }
+
 }

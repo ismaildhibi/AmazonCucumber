@@ -1,0 +1,106 @@
+{
+  "name": "Check login is successful with valid credentials",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  the user is on login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630314073587,
+      "stop": 1630314087672
+    },
+    {
+      "name": "When  the user enter username \"tenant@mt.com\" and password \"A12345\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630314087673,
+      "stop": 1630314097773
+    },
+    {
+      "name": "Then  I should redirect to Workforce page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1630314097773,
+      "stop": 1630314097774
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1630314073565,
+  "stop": 1630314097906,
+  "uuid": "da665aaf-96b0-4387-a061-c6413b2d8fad",
+  "historyId": "b3c2f430e86d834cad3882f8be5511f",
+  "fullName": "feature to test login for redsea functionality: Check login is successful with valid credentials",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "SanityTest115"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-OVEUH4R"
+    },
+    {
+      "name": "thread",
+      "value": "8672@DESKTOP-OVEUH4R.main(1)"
+    },
+    {
+      "name": "feature",
+      "value": "feature to test login for redsea functionality"
+    },
+    {
+      "name": "story",
+      "value": "Check login is successful with valid credentials"
+    },
+    {
+      "name": "suite",
+      "value": "feature to test login for redsea functionality"
+    },
+    {
+      "name": "testClass",
+      "value": "Check login is successful with valid credentials"
+    },
+    {
+      "name": "framework",
+      "value": "cucumber4jvm"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "gherkin_uri",
+      "value": "file:///C:/Users/ismail/eclipse-workspace/RedSea-PageFactory/src/test/resources/Features/T01-login.feature"
+    },
+    {
+      "name": "package",
+      "value": "src.test.resources.Features.T01-login_feature.feature to test login for redsea functionality"
+    }
+  ],
+  "links": []
+}

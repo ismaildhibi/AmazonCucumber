@@ -1,7 +1,7 @@
-package steps;
+package StepsDefinitions;
 
+import com.Pages.VisitorPage;
 import com.redsea.base.Base;
-import com.redsea.pages.VisitorPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -36,14 +36,13 @@ public class VisitorSteps extends Base {
 
     @When("User type visitor information")
     public void user_type_visitor_information(DataTable data) throws InterruptedException {
-        Thread.sleep(3000);
         visitorPage.entervisitorInformationP1(data.cell(0, 0), data.cell(0, 1), data.cell(0, 2));
         visitorPage.clickonGender();
         visitorPage.clickOnnationality();
         visitorPage.clickOnVisType();
         visitorPage.clickOnStartDate(data.cell(0, 3), data.cell(0, 4));
         visitorPage.clickOnEndDate(data.cell(0, 5), data.cell(0, 6));
-        visitorPage.ClickOnattachment(data.cell(0, 7), data.cell(0, 8));
+       // visitorPage.ClickOnattachment(data.cell(0, 7), data.cell(0, 8));
         Thread.sleep(3000);
     }
 
@@ -52,7 +51,7 @@ public class VisitorSteps extends Base {
     public void clickOnButtonToConfirm() throws InterruptedException {
 
         visitorPage.clickToConfirmAdd();
-        Thread.sleep(4000);
+        Thread.sleep(3000);
     }
 
     @Then("User should navigate to visitor dashboard")
@@ -76,6 +75,7 @@ public class VisitorSteps extends Base {
     public void userClickOnExportButton() throws InterruptedException {
         Thread.sleep(1000);
         visitorPage.clickonexportbutton();
+        Thread.sleep(3000);
     }
 
     @Given("User select visitor to update")
@@ -107,7 +107,7 @@ public class VisitorSteps extends Base {
 
     @Given("User select visitor to delete")
     public void userSelectVisitorToDelete(DataTable data) throws InterruptedException {
-        System.out.println(" load visitor");
+        System.out.println(" User select visitor to delete");
         visitorPage = new VisitorPage();
         visitorPage.gotoVisitor();
         Thread.sleep(2000);
@@ -131,7 +131,7 @@ public class VisitorSteps extends Base {
     @When("User click on import visitors list")
     public void userClickOnImportVisitorsList() throws InterruptedException {
         System.out.println(" load visitor to import");
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         visitorPage.importnewvisitor();
     }
 
@@ -197,7 +197,6 @@ public class VisitorSteps extends Base {
 
     @When("Add multiple visitors")
     public void addMultipleVisitors(DataTable visitorData) throws InterruptedException {
-        Thread.sleep(3000);
         List<Map<String, String>> vis = visitorData.asMaps(String.class, String.class);
         for (Map<String, String> visitor : vis) {
             visitorPage.gotoAddIconbutton();
@@ -209,8 +208,9 @@ public class VisitorSteps extends Base {
             visitorPage.clickOnVisType();
             visitorPage.clickOnStartDate(visitor.get("visitorStartdate"), visitor.get("visitorStartTime"));
             visitorPage.clickOnEndDate(visitor.get("visitorEnddate"), visitor.get("visitorEndTime"));
-            visitorPage.ClickOnattachment(visitor.get("fileName"), visitor.get("fileLocation"));
+           // visitorPage.ClickOnattachment(visitor.get("fileName"), visitor.get("fileLocation"));
             visitorPage.clickToConfirmAdd();
+            Thread.sleep(3000);
         }
     }
 
@@ -220,7 +220,7 @@ public class VisitorSteps extends Base {
         Thread.sleep(3000);
         visitorPage.clickonSelectAll();
         String MessagePop = visitorPage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "4 visitors selected");
+        Assert.assertEquals((MessagePop), "5 visitors selected");
         Thread.sleep(9000);
     }
 
@@ -228,7 +228,7 @@ public class VisitorSteps extends Base {
     public void clickOnDeleteButton() throws InterruptedException {
         Thread.sleep(3000);
         visitorPage.clickOndeleteAll();
-
+        Thread.sleep(2000);
         visitorPage.confirmdelete();
         Thread.sleep(3000);
     }

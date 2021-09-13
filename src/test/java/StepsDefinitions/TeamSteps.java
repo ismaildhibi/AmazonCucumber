@@ -1,8 +1,7 @@
-package steps;
+package StepsDefinitions;
 
+import com.Pages.TeamPage;
 import com.redsea.base.Base;
-import com.redsea.pages.TeamPage;
-import com.redsea.pages.VehiclePage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -158,20 +157,19 @@ public class TeamSteps extends Base {
         }
     }
 
-    @Then("select the Teams added")
+    @And("select the Teams added")
     public void selectTheTeamsAdded() throws InterruptedException {
-        Thread.sleep(3000);
         teamPage.clickonSelectAll();
-        String MessagePop = teamPage.getSelectMessage();
-        Assert.assertEquals((MessagePop), "4 teams selected");
-        Thread.sleep(9000);
+//        String MessagePop = teamPage.getSelectMessage();
+//        Assert.assertEquals((MessagePop), "4 teams selected");
+        Thread.sleep(3000);
 
     }
 
-    @And("Click on delete Teams button")
+    @Then("Click on delete Teams button")
     public void clickOnDeleteTeamsButton() throws InterruptedException {
-        Thread.sleep(3000);
         teamPage.clickOndeleteAll();
+        Thread.sleep(3000);
         teamPage.confirmdelete();
         Thread.sleep(3000);
     }
